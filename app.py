@@ -53,4 +53,4 @@ def result():
 
 
 if __name__ == '__main__':
-    a.run(debug=False)
+    a.run(debug=True)
