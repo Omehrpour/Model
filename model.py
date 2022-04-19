@@ -1,4 +1,3 @@
-import pandas as pd
 import pickle 
 import numpy as np
 with open('updated_model_pkl' , 'rb') as f:
