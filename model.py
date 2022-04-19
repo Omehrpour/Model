@@ -1,7 +1,6 @@
-import pickle 
+from joblib import load
 import numpy as np
-with open('updated_model_pkl' , 'rb') as f:
-    model = pickle.load(f)
+model = load("model.joblib")
 
 
 
